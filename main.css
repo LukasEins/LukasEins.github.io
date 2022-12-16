@@ -7,7 +7,7 @@ body {
 	text-shadow: 2px 2px 5px rgb(255,255,255);
 	color: rgb(80, 80, 80);
 	position: relative;
-	background-size: cover;
+	background-size: fill;
 	background-repeat: no-repeat;
 	background-image: url("background.jpg");
 }
