@@ -1,1 +1,1 @@
-just a simple website
+just a simple linker for now
