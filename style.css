@@ -1,0 +1,85 @@
+* {
+	font-family: 'Inconsolata', monospace;
+}
+
+body {
+	margin: 0;
+	background: black;
+	overflow: hidden;
+  padding-top: 10px;
+}
+
+h1 {
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%) scale(2, 2);
+	transition: 0.5s ease-in-out;
+}
+
+h1.top {
+	top: 0;
+	transform: translateX(-50%);
+}
+
+
+#main {
+	opacity: 1;
+	transition: 0.5s;
+	color: white;
+	padding-top: 60px;
+}
+
+h2 {
+  padding-top: 10;
+  position: flex;
+	text-align: center;
+	margin: 0;
+	cursor: default;
+}
+
+.underline {
+	display: block;
+	height: 2px;
+	margin: 0 auto;
+	width: 0;
+	transition: width .25s linear;
+}
+
+*:hover>.underline, .active>.underline {
+	width: 100%;
+}
+
+line {
+	stroke-width: 5px;
+	stroke-dasharray: 100px;
+	stroke-dashoffset: 100px;
+	stroke-linecap: round;
+}
+
+a {
+	color: inherit;
+	display: inline-block;
+}
+
+a.github {
+	text-decoration: none;
+}
+
+a.twitter {
+	text-decoration: none;
+}
+
+#details {
+	margin-top: 50px;
+	opacity: 1;
+	z-index: 100;
+	transition: all 0.125s ease-in-out;
+}
+
+canvas {
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+}
