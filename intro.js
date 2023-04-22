@@ -12,9 +12,10 @@ let anim = [
     { t: "{LukasE_}", ms: 150 },
     { t: "{LukasEi_}", ms: 150 },
     { t: "{LukasEin_}", ms: 150 },
-    { t: "{LukasEins}", ms: 150 },,
     { t: "{LukasEins_}", ms: 150 },
-    { t: "{LukasEins}", ms: 250 },
+    { t: "{LukasEins }", ms: 250 },
+    { t: "{LukasEins_}", ms: 250 },
+    { t: "{LukasEins }", ms: 250 },
     { t: "{LukasEins_}", ms: 250 },
     { t: "{LukasEins}", ms: 250 },
     { t: "{LukasEins}", ms: 250 }
