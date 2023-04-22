@@ -51,13 +51,6 @@ h2 {
 	width: 100%;
 }
 
-line {
-	stroke-width: 5px;
-	stroke-dasharray: 100px;
-	stroke-dashoffset: 100px;
-	stroke-linecap: round;
-}
-
 a {
 	color: inherit;
 	display: inline-block;
