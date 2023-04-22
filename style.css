@@ -77,9 +77,3 @@ a.twitter {
 	z-index: 100;
 	transition: all 0.125s ease-in-out;
 }
-
-canvas {
-	left: 50%;
-	position: absolute;
-	transform: translateX(-50%);
-}
